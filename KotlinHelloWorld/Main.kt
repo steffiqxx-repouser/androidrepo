@@ -2,12 +2,29 @@ fun main() {
     printHelloWorld()
     printScores()
     printStudentSubjects()
+    println( greet("steffi"))
+    println(add(42,38))
+    println(printDetails(24))
+} 
+
+fun add(a: Int, b: Int):Int { return a + b
+
 }
 
+fun printDetails(age:Int):String{
+    if(age<18){
+        return "student passed with 83.37%"
+    }
+    return "adult faced hidden demonic not outright demonic " + 
+            "children based students passed with 22.22%  and and got education and" + 
+                    " home loan at 7.5% and got married at 27 years of age"
+}
 fun printHelloWorld() {
     println("Hello, World!")
 }
-
+fun greet(name: String): String {
+    return "Hello $name"
+}
 fun printScores() {
     val scores: Map<String, Int> = mapOf(
         "Alice" to 42,
