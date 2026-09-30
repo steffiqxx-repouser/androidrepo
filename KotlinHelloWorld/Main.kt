@@ -8,7 +8,10 @@ fun main() {
 } 
 
 fun add(a: Int, b: Int):Int { return a + b
+//downright fraud is 75,27,35 ask that what they call that scorpio shahrukh khan from where he took the money in dubai 
+//to make a home in dubai
 
+//thats a 7 ,one of the reasons that more whoric taurus anushka sharma is her ardent devotee,same goes for that varun dhawan
 }
 
 fun printDetails(age:Int):String{
@@ -16,7 +19,7 @@ fun printDetails(age:Int):String{
         return "student passed with 83.37%"
     }
     return "adult faced hidden demonic not outright demonic " + 
-            "children based students passed with 22.22%  and and got education and" + 
+            "children based students passed with 99.95%  and and got education and" + 
                     " home loan at 7.5% and got married at 27 years of age"
 }
 fun printHelloWorld() {
@@ -52,3 +55,4 @@ fun printStudentSubjects() {
         }
     }
 }
+
