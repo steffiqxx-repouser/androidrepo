@@ -13,4 +13,5 @@ fun main(args:Array<String>){
 
 class User(var name:String,var lastName:String,var age:Int){
     constructor(name:String): this(name,"def",60)
+    constructor(name:String,lastName:String): this(name,lastName,0)
 }
