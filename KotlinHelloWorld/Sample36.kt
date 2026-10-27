@@ -4,7 +4,9 @@ fun main(){
     acc.deposit(9795)
     acc.deposit(2895)
     //acc.deposit(4200)
-    acc.withdraw(4200)
+        acc.withdraw(5795)
+
+   // acc.withdraw(4200)
 
 
 
@@ -29,7 +31,15 @@ class Account(val accountNumber:String){
             this.balance+= -withdrawal
             println("$withdrawal deposited.Balance is now ${this.balance}")
         }else{
-            println("cannot withdraw negative amount")
+           // println("cannot withdraw negative amount")
+           try{
+              var sum=-withdrawal
+              println("cannot withdraw negative amount because var withdrawal is below zero")
+
+           }catch(e:Exception){
+             println("cannot withdraw negative amount because var withdrawal is below zero")
+
+           }
         }
     }
 }
