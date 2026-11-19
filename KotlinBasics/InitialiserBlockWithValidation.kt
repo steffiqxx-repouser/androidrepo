@@ -3,7 +3,7 @@ class BankAccount(val owner:String,val bal:Double){
         require(owner.isNotBlank()){
             "Name needed"
         }
-        require(bal<=0){
+        require(bal>=0){
             "Balance negative"
         }
     }
